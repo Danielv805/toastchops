@@ -89,9 +89,12 @@ button {
 }
 
 .page{
+    position: absolute;
     height: 1000;
     overflow: auto;
+    margin: 20px 20px;
 }
+
 @keyframes color {
     0% {
         background-position: 0% 50%;
@@ -110,7 +113,7 @@ button {
     left: 0;
     height: 100%;
     width: 100%;
-    z-index: -1; /* Ensure the box is behind other content */
+    z-index: -1; 
 }
 
 .box div {
