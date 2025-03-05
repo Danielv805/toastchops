@@ -14,11 +14,11 @@ body {
     position: relative;
 }
 h1 {
-    font-size: 4em;
+    font-size: flex;
     color: black;
 }
 p {
-    font-size: 2em;
+    font-size: flex;
     color: black;
 }
 .blue-circle-button {
